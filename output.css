@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+.btn-success, .btn-primary, .btn {
+  padding: 1% 2%;
+  background: gray;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  display: inline;
+}
+
+.btn-primary {
+  background-color: blue;
+}
+
+.btn-success {
+  background-color: green;
+}
+
+/*# sourceMappingURL=output.css.map */

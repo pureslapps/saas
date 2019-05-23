@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+
+%button {
+  padding: 1% 2%;
+  background: gray;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav {
+  ul {
+    li {
+      display: inline;
+    }
+  }
+}
+
+.btn {
+  @extend %button;
+}
+
+.btn-primary {
+@extend %button;
+background-color: blue;
+
+}
+
+.btn-success {
+@extend %button;
+background-color: green;
+
+}
